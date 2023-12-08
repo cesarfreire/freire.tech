@@ -13,7 +13,7 @@ params:
     enabled: true # needs to be explicitly set
     title: César Freire
     subtitle: "Useful (or not) things about something that I know."
-    imageUrl: "https://github.com/cesarfreire/freire.tech/assets/21126103/8297b9cf-53c9-447f-b872-1afaf821a99b"
+    imageUrl: "/profile_pic.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Profile pic
