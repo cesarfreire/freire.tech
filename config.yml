@@ -1,0 +1,34 @@
+theme: "PaperMod"
+baseURL: 'https://www.freire.tech/'
+title: Freire.tech
+params:
+ socialIcons:
+    - name: instagram
+      url: "https://instagram.com/cesarfreiree"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/cesarfreiree/"
+    - name: github
+      url: "https://github.com/cesarfreire"
+ profileMode:
+    enabled: true # needs to be explicitly set
+    title: César Freire
+    subtitle: "Useful (or not) things about something that I know."
+    imageUrl: "https://github.com/cesarfreire/freire.tech/assets/21126103/8297b9cf-53c9-447f-b872-1afaf821a99b"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Profile pic
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
